@@ -1,0 +1,67 @@
+﻿@page
+@model TechnologyShopManagement_v2.Pages.Manager.RegisterModel
+@{
+    Layout = "_LoginLayout";
+    //Layout = null;
+    ViewData["Title"] = "Đăng ký";
+}
+<div class="container">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+                <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+                <div class="col-lg-7">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                        </div>
+                        <form action="" method="post">
+                            <span class="msg-error">@ViewData["msg"]</span><br />
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <label>Full Name<span style="color: red;">*</span></label><br />
+                                    <input asp-for="Account.Name" class=" form-control form-control-user"
+                                           id="rPhone" placeholder="Full name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label>Username<span style="color: red;">*</span></label><br />
+                                    <input asp-for="Account.Username" class=" form-control form-control-user"
+                                           id="rEmail" placeholder="Username123...">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <label>Phone Number<span style="color: red;">*</span></label><br />
+                                    <input asp-for="Account.PhoneNumber" class=" form-control form-control-user"
+                                           id="rPhone" placeholder="0123456789">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label>Email<span style="color: red;">*</span></label><br />
+                                    <input  asp-for="Account.Email" class=" form-control form-control-user"
+                                           id="rEmail" placeholder="example@gmail.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Password<span style="color: red;">*</span></label><br />
+                                <input type="password" asp-for="Account.Password" class=" form-control form-control-user"
+                                       id="rPassword" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label>Re-Enter Password<span style="color: red;">*</span></label><br />
+                                <input type="password" name="rePass" class=" form-control form-control-user"
+                                       id="rePassword" placeholder="Re-Enter Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-user btn-block">Create</button>
+                        </form>
+                        <hr>
+                        <div class="text-center">
+                            <a class="small" asp-page="/Manager/Login">Already have an account? Login!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

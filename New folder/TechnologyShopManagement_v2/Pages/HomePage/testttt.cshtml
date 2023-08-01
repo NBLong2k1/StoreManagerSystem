@@ -1,0 +1,32 @@
+﻿@page
+@model TechnologyShopManagement_v2.Pages.HomePage.testtttModel
+@{
+}
+
+<h1>@Model.name</h1>
+
+
+<form class="d-flex" asp-page="/HomePage/testttt" method="get">
+
+    <input class="form-control me-2 " size="50" name="searchString" type="text" placeholder="Search Product" aria-label="Search">
+
+    <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+
+
+<h1>Add product</h1>
+
+<form  method="POST">
+
+    <input class="form-control me-2 " size="50" name="productName" type="text" placeholder="productName" aria-label="Search">
+    <input class="form-control me-2 " size="50" name="productType" type="text" placeholder="productType" aria-label="Search">
+    <input class="form-control me-2 " size="50" name="productPrice" type="text" placeholder="productPrice" aria-label="Search">
+    <input class="form-control me-2 " size="50" name="productImage" type="text" placeholder="productImage" aria-label="Search">
+
+    <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+
+
+@foreach(var list in Model.productList){
+    <h1>@list.ProductName</h1>
+}

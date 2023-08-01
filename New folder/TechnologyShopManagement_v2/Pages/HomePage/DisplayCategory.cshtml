@@ -1,0 +1,279 @@
+﻿@page
+@model TechnologyShopManagement_v2.Pages.HomePage.DisplayCategoryModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="~/ForHomePage/assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="~/ForHomePage/css/styles.css" rel="stylesheet" />
+      
+    </head>
+    <body>
+        <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container px-4 px-lg-5">
+                    <a class="navbar-brand" asp-page="/HomePage/Home">Technology Store</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" asp-page="/HomePage/Home">Home</a></li>
+                          
+                           
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+                                     
+                                    <li><a class="dropdown-item" asp-page="/HomePage/DisplayCategory" asp-route-productType="laptop">Laptop</a></li>
+                                    <li><a class="dropdown-item" asp-page="/HomePage/DisplayCategory" asp-route-productType="pc">PC</a></li>
+                                    <li><a class="dropdown-item" asp-page="/HomePage/DisplayCategory" asp-route-productType="phone">Phone</a></li>
+                                    <li><a class="dropdown-item" asp-page="/HomePage/DisplayCategory" asp-route-productType="accessory">Accessory </a></li>
+                               
+                                </ul>
+
+                            </li>
+
+
+                        </ul>
+
+
+
+                        <div style="margin-right:100px">
+
+                       <form class="d-flex" asp-page="#" method="#" >
+
+                        <input class="form-control me-2 " size="50" name="searchString" id="searchString" type="search" placeholder="Search Product" onchange="onSearching()" aria-label="Search">
+
+                                <button class="btn btn-outline-success" type="button" id="buttonSearch">Search</button>
+                              </form>
+                       </div>
+
+
+
+
+                    </div>
+                </div>
+              <div class="d-flex" style="float:right;margin-right:25px"> <a class="btn btn-outline-dark" asp-area="" asp-page="/HomePage/ShoppingCart"><i class="bi-cart-fill me-1"></i>Cart <span class="badge bg-dark text-white ms-1 rounded-pill">@HttpContext.Session.GetInt32("numberCart").ToString()</span></a></div>
+
+        @if (HttpContext.Session.GetString("isLogin") != null && HttpContext.Session.GetString("isLogin").Length > 0)
+        {
+                    <div class="dropdown">
+                  <a class="btn btn-outline-dark dropdown-toggle"  style="margin-right: 20px;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Hello @HttpContext.Session.GetString("isLogin").ToString()
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" asp-page="/Manager/Customer/editInformation">Profile</a></li>
+                <li><a class="dropdown-item" asp-page="/Manager/Customer/customerManager">Account Manager</a></li>
+            <li><a class="dropdown-item" asp-page="/Manager/LogOut">LogOut</a></li>
+          </ul>
+        </div>
+
+        }
+        else
+        {
+                     <a style="margin-right: 20px;" class="btn btn-outline-dark" asp-page="/Manager/Login" >Login</a>
+
+        }
+          
+          </nav>
+
+
+
+
+          <!-- Section-->
+        <section class="py-5">
+
+            <div class="container px-4 px-lg-5 mt-5">
+
+                    <h3 id="searchForText">Search For: @Model.stringSearch</h3>
+          
+
+
+
+
+
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="getByApi">
+            
+                @if (Model.productsList != null)
+                {
+
+                   
+                 
+                    @foreach (var item in Model.productsList)
+                    {  <form asp-page='/HomePage/Home' method="post">
+                                            <div class="col mb-5">
+                                                <div class="card h-100">
+                                                    <!-- Sale badge-->
+                                                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                                                    <!-- Product image-->
+                                                                 <a style="overflow: hidden;" asp-page="/HomePage/ViewProductDetails" asp-route-proID="@item.Id"><img class="card-img-top" src="@item.ProImage" width="450" height="200" alt="..." /></a>
+
+                                                    <!-- Product details-->
+                                                    <div class="card-body p-4">
+                                                        <div class="text-center">
+                                                            <!-- Product name-->
+                                                                      <div>
+
+                                              <a style=" text-decoration: none;font-size:20px;overflow: hidden;" class="fw-bolder text" asp-page="/HomePage/ViewProductDetails" asp-route-proID="@item.Id" >@item.ProductName</a>
+                                                                                                </div>
+                                                            <!-- Product price-->
+                                                                                                         <h5 style="color:red;" >@item.Price?.ToString("#,##0")₫</h5>  
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <!-- Product actions-->
+                                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                        <div class="row">
+                                                            <div style="margin-left:10px;margin-bottom:5px">
+                                                                <input type="number" name="proId" value="@item.Id" hidden>
+                                                                                        <input type="number" name="proQuantity" value="0" min="1" max="@item.Stock" style="width:90%;">
+
+                                                            </div>
+
+
+                                                            <div class="text-center "><button type="submit" class="btn btn-outline-dark mt-auto" >Add to cart</button></div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                              </form>
+                        
+                    }
+                   
+                } 
+
+
+                </div>
+           
+
+            </div>
+        </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script>
+
+         $(document).ready(function () {
+
+             function onSearching(){
+               
+
+                  alert("hello");
+             }
+
+
+
+
+            $("#buttonSearch").click(function () {
+
+                var searchForText = $("#searchForText ");
+               searchForText.empty();
+
+                var getByApi = $("#getByApi ");
+                $('#getByApi').empty();
+
+
+                var searchString = $("#searchString ").val();;
+                var myOrderUlr = "https://localhost:7179/api/Products?filter=contains(productName,%27" + searchString + "%27)%20or%20contains(categoryCode,%27" + searchString + "%27)";
+                $.ajax({
+                    url: myOrderUlr, // Replace with the actual URL that provides the data
+                    type: 'GET',
+                    contentType: 'application/json;charset=utf-8',
+                    dataType: 'json',
+                    success: function (result) {
+                        searchForText.append("Search For: "+searchString);
+
+                        $.each(result, function (index, value) {
+
+
+
+                            var newRow = $("<form asp-page='/HomePage/Home' method='post'>" +
+                                    "<div class='col mb-5'>" +
+                                    "   <div class='card h-100'>" +
+                                    "       <div class='badge bg-dark text-white position-absolute' style='top: 0.5rem; right: 0.5rem'>Sale</div>" +
+                                "       <a style='overflow: hidden;' href='/HomePage/ViewProductDetails?proID=" + value.id + "'>" +
+                                    "           <img class='card-img-top' src='" + value.proImage + "' width='450' height='200' alt='...' />" +
+                                    "       </a>" +
+                                    "       <div class='card-body p-4'>" +
+                                    "           <div class='text-center'>" +
+                                    "               <div>" +
+                                "                   <a style='text-decoration: none; font-size: 20px; overflow: hidden;' class='fw-bolder text' href='/HomePage/ViewProductDetails?proID=" + value.id + "' >" +
+                                    "                       " + value.productName +
+                                    "                   </a>" +
+                                    "               </div>" +
+                                "               <h5 style='color: red;'>" + value.price + "₫</h5>" +
+                                    "           </div>" +
+                                    "       </div>" +
+                                    "       <div class='card-footer p-4 pt-0 border-top-0 bg-transparent'>" +
+                                    "           <div class='row'>" +
+                                    "               <div style='margin-left: 10px; margin-bottom: 5px;'>" +
+                                    "                   <input type='number' name='proId' value='" + value.id + "' hidden>" +
+                                    "                   <input type='number' name='proQuantity' value='0' min='1' max='" + value.stock + "' style='width: 90%;'>" +
+                                    "               </div>" +
+                                    "               <div class='text-center'>" +
+                                    "                   <button type='submit' class='btn btn-outline-dark mt-auto'>Add to cart</button>" +
+                                    "               </div>" +
+                                    "           </div>" +
+                                    "       </div>" +
+                                    "   </div>" +
+                                    "</div>" +
+                                    "</form>");
+
+
+
+                                $('#getByApi').append(newRow);
+
+                            
+                             
+                        });
+                    },
+                    error: function () {
+                        alert('Error occurred while fetching data.');
+                    }
+                });
+
+
+            });
+
+
+
+
+        });
+
+
+
+       
+             
+       </script>
+
+
+
+
+
+       <!-- Footer-->
+    <footer class="py-5 bg-dark" >
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+        </footer>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="~/ForHomePage/js/scripts.js"></script>
+    </body>
+
+</html>

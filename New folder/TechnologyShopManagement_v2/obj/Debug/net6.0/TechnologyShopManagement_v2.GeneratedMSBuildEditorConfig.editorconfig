@@ -1,0 +1,229 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TechnologyShopManagement_v2
+build_property.RootNamespace = TechnologyShopManagement_v2
+build_property.ProjectDir = D:\FUSylabus\PRN231\Final Project\ProjectPRN231_HA150108\New folder\TechnologyShopManagement_v2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\FUSylabus\PRN231\Final Project\ProjectPRN231_HA150108\New folder\TechnologyShopManagement_v2
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/checkoutForCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcY2hlY2tvdXRGb3JDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/checkoutShoppingCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcY2hlY2tvdXRTaG9wcGluZ0NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcRGVsZXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/DisplayCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcRGlzcGxheUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/ShoppingCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcU2hvcHBpbmdDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/successCheckout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2Vcc3VjY2Vzc0NoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/testttt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcdGVzdHR0dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/HomePage/ViewProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcVmlld1Byb2R1Y3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxBZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Admin/adminManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxBZG1pblxhZG1pbk1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Admin/editAdminInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxBZG1pblxlZGl0QWRtaW5JbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Customer/customerHistoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxDdXN0b21lclxjdXN0b21lckhpc3RvcnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Customer/customerManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxDdXN0b21lclxjdXN0b21lck1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Customer/customerProcessList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxDdXN0b21lclxjdXN0b21lclByb2Nlc3NMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Customer/editCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxDdXN0b21lclxlZGl0Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Customer/editInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxDdXN0b21lclxlZGl0SW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Customer/listCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxDdXN0b21lclxsaXN0Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/DetailsProcessOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxEZXRhaWxzUHJvY2Vzc09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Earning/listEarning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFYXJuaW5nXGxpc3RFYXJuaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Earning/showDetailsEarning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFYXJuaW5nXHNob3dEZXRhaWxzRWFybmluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFZGl0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Employee/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFbXBsb3llZVxBZGRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Employee/editEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFbXBsb3llZVxlZGl0RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Employee/editEmployeeInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFbXBsb3llZVxlZGl0RW1wbG95ZWVJbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Employee/employeeManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFbXBsb3llZVxlbXBsb3llZU1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Employee/listEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxFbXBsb3llZVxsaXN0RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/forgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxmb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Guest/editGuest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxHdWVzdFxlZGl0R3Vlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Guest/listGuest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxHdWVzdFxsaXN0R3Vlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/listCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxsaXN0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/listHistoryOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxsaXN0SGlzdG9yeU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/listProcessOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxsaXN0UHJvY2Vzc09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/listProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxsaXN0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Manager/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Shared/testTotalEachMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXHRlc3RUb3RhbEVhY2hNb250aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Views/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Views/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FUSylabus/PRN231/Final Project/ProjectPRN231_HA150108/New folder/TechnologyShopManagement_v2/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-obuyebmcex
